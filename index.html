@@ -179,8 +179,8 @@ function makeHeart(){
 }
 function updateLives(){document.querySelector('#lives').textContent='❤️'.repeat(Math.max(0,lives))+'🖤'.repeat(MAX_LIVES-Math.max(0,lives))}
 // Supabase: replace these two public configuration values (never use a service_role key).
-const SUPABASE_URL = 'https://YOUR_PROJECT.supabase.co';
-const SUPABASE_KEY = 'YOUR_PUBLISHABLE_KEY';
+const SUPABASE_URL = 'https://sqhvmcughleexappkbrh.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_dhA50IfJPA_7k1IJ9NMjDg_YbGVLIpH';
 const onlineConfigured = !SUPABASE_URL.includes('YOUR_PROJECT') && !SUPABASE_KEY.includes('YOUR_');
 const rankTargets = ['menuRanks','localRanks'];
 function readRecords(){try{return JSON.parse(localStorage.getItem('london_records')||'[]')}catch{return []}}
